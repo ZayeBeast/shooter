@@ -1,7 +1,5 @@
 let key;
-
-document.addEventListener('keydown',move ,false);
+document.addEventListener('keydown',move,false);
 function move(event){
 key = event.key; 
-console.log(key);
 }
