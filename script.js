@@ -11,6 +11,7 @@ function Tank (id){
 
 
 const tank1 = new Tank(1);
+tank1.render();
 let key;
 document.addEventListener('keydown',move,false);
 function move(event){
