@@ -18,13 +18,13 @@ class Tank {
 	}
 	render(){
 		var self = this;
-		document.addEventListener('click', function(evt) { self.handleCellClick.call(self, evt) }, false);
+		document.addEventListener('click',evt=> self.handleCellClick.call(self, evt) , false);
 		ctx.drawImage(this.image,this.x,this.y);
 		
 	}
 	
 	move(event){
-		console.log(this);
+		console.log(this.x);
 		//switch(event.key){
 			//case 'a':
 			//this.x++;
