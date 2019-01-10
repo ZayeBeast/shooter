@@ -16,12 +16,14 @@ class Tank {
 		document.addEventListener('keydown', evt=>this.move(evt), false);
 	}
 	render(){
+		var self = this;
+		document.addEventListener('click',evt=> self.handleCellClick.call(self, evt) , false);
 		ctx.drawImage(this.image,this.x,this.y);
 		
 	}
 	
 	move(event){
-		console.log(this);
+		console.log(this.x);
 		//switch(event.key){
 			//case 'a':
 			//this.x++;
@@ -37,7 +39,7 @@ function bg(){
 	ctx.fillRect(0,0,canvw,canvh);
 }
 
-let tank1 = new Tank(1);
+const tank1 = new Tank(1);
 
 
 
