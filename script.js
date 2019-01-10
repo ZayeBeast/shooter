@@ -17,6 +17,8 @@ class Tank {
 	}	
 	
 	render(){
+		var self = this;
+		document.addEventListener('click', function(evt) { self.handleCellClick.call(self, evt) }, false);
 		ctx.drawImage(this.image,this.x,this.y);
 		
 	}
@@ -38,7 +40,7 @@ function bg(){
 	ctx.fillRect(0,0,canvw,canvh);
 }
 
-let tank1 = new Tank(1);
+const tank1 = new Tank(1);
 
 
 
