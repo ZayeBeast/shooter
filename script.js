@@ -13,8 +13,7 @@ class Tank {
 		this.angle=0;
 		this.x=0;
 		this.y=0;
-		var me = this;
-		document.addEventListener('keydown', evt=>me.move.call(me,evt), false);
+		document.addEventListener('keydown', evt=>this.move(evt), false);
 	}
 	render(){
 		ctx.drawImage(this.image,this.x,this.y);
