@@ -13,9 +13,9 @@ class Tank {
 		this.angle=0;
 		this.x=0;
 		this.y=0;
-		document.addEventListener('keydown',this.move,false);
-	}	
-	
+		var me = this;
+		document.addEventListener('keydown', evt=>me.move.call(me,evt), false);
+	}
 	render(){
 		var self = this;
 		document.addEventListener('click', function(evt) { self.handleCellClick.call(self, evt) }, false);
@@ -24,7 +24,7 @@ class Tank {
 	}
 	
 	move(event){
-		console.log(this.x);
+		console.log(this);
 		//switch(event.key){
 			//case 'a':
 			//this.x++;
