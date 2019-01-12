@@ -69,4 +69,4 @@ function game(){
 	tank1.render();	
 }
 
-setInterval(game,25); // It does game() func 40 times per minute.
+setInterval(game,25); // It does game() func 40 times per sec.
