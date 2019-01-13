@@ -1,32 +1,29 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
-const canvw=1000;
-const canvh=500;
-const tankw = 50;
-const tankh = 50;
+const canvw = canvas.width;
+const canvh = canvas.height;
+const tankDim = 50;
 
-canvas.width=canvw;
-canvas.height=canvh;
 class Tank {
 	constructor(id) {
-		this.id=id;	
+		this.id = id;	
 		this.image = new Image();
-		this.image.src='tank'+id+'.svg';
-		this.angle=0;
-		this.coordx=0;
-		this.coordy=0;
+		this.image.src = 'tank1.png';
+		this.angle = 0;
+		this.coordx = 0;
+		this.coordy = 0;
 		
 		document.addEventListener('keydown', evt=>this.move(evt), false);
 	}
 	render(){
     		var self = this;
-    		ctx.translate(this.coordx+(tankw/2),this.coordy+(tankh/2));
+    		ctx.translate(this.coordx+(tankDim/2),this.coordy+(tankDim/2));
     		ctx.rotate(Math.PI / 180* this.angle);
-		ctx.translate(-(this.coordx+(tankw/2)),-(this.coordy+(tankh/2)));
-		ctx.drawImage(this.image,this.coordx,this.coordy,tankw,tankh);
+		ctx.translate(-(this.coordx+(tankDim/2)),-(this.coordy+(tankDim/2)));
+		ctx.drawImage(this.image,this.coordx,this.coordy,tankDim,tankDim);
     		console.log("render");
 		console.log(this.coordx +" | "+this.coordy);
-		this.angle=0;
+		this.angle = 0;
 	}
 	
 	move(event){
@@ -36,26 +33,26 @@ class Tank {
                 key = key.substr(5);
           	switch (key) {
               		case 'Left':
-               			this.angle-=5;
+               			this.angle -= 5;
                 		break;
      
               		case 'Down':
-                			this.coordy+=spd;
+                		this.coordy += spd;
                 		break;
      
               		case 'Right':
-                		this.angle+=5;
+                		this.angle += 5;
                 		break;
      
               		case 'Up':
-                			this.coordy-=spd;
+                		this.coordy -= spd;
                 		break;
     		}	
 	}
 }
 
 function bg(){                     // (sth like) refreshing, it shows background.  
-	ctx.fillStyle='white';
+	ctx.fillStyle = 'white';
 	ctx.fillRect(0,0,canvw,canvh);
 }
 
