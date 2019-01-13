@@ -17,7 +17,6 @@ class Tank {
 	}
 	render(){
     		var self = this;
-    		document.addEventListener('click',evt=> self.handleCellClick.call(self, evt) , false);
     		ctx.translate(this.coordx, this.coordy);
     		ctx.rotate(Math.PI / 180* this.angle);
     		ctx.drawImage(this.image,this.coordx,this.coordy, 50, 50);
