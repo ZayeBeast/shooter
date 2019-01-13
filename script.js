@@ -9,7 +9,7 @@ class Tank {
 	constructor(id) {
 		this.id=id;	
 		this.image = new Image();
-		this.image.src='tank'+ id +'.jpg';
+		this.image.src='tank1.svg';
 		this.angle=0;
 		this.coordx=0;
 		this.coordy=0;
