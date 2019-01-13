@@ -2,6 +2,8 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 const canvw=1000;
 const canvh=500;
+const tankw = 50;
+const tankh = 50;
 
 canvas.width=canvw;
 canvas.height=canvh;
@@ -18,13 +20,13 @@ class Tank {
 	}
 	render(){
     		var self = this;
-    		ctx.translate(this.coordx+25,this.coordy+25);
+    		ctx.translate(this.coordx+(tankw/2),this.coordy+(tankh/2));
     		ctx.rotate(Math.PI / 180* this.angle);
-			ctx.translate(-(this.coordx+25),-(this.coordy+25));
-			ctx.drawImage(this.image,this.coordx,this.coordy,50,50);
-    		//console.log("render");
-			console.log(this.coordx +" | "+this.coordy);
-			this.angle=0;
+		ctx.translate(-(this.coordx+(tankw/2)),-(this.coordy+(tankh/2)));
+		ctx.drawImage(this.image,this.coordx,this.coordy,tankw,tankh);
+    		console.log("render");
+		console.log(this.coordx +" | "+this.coordy);
+		this.angle=0;
 	}
 	
 	move(event){
