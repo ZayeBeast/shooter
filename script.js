@@ -29,26 +29,25 @@ class Tank {
 	move(event){
       		console.log(this.coordx +" | "+this.coordy);
       		const spd = 2;                                // Speed's value
-          	switch (event.keyCode) {
-              		case 37:                              // Left
-               			ctx.fillRect(0,0,canvw,canvh);
+      		let key = event.key;
+      		if(key.substr(0,5)=="Arrow")
+                key = key.substr(5);
+          	switch (key) {
+              		case 'Left':
                			this.angle-=5;
                 		break;
      
-              		case 40:                              //Up
-                		ctx.fillRect(0,0,canvw,canvh);
+              		case 'Down':
 		        	if(this.coordy<2){
                 			this.coordy+=spd;
 		        	}
                 		break;
      
-              		case 39:                              // Right
-                		ctx.fillRect(0,0,canvw,canvh);
+              		case 'Right':
                 		this.angle+=5;
                 		break;
      
-              		case 38:                              // Down
-                		ctx.fillRect(0,0,canvw,canvh);
+              		case 'Up':
 		        	if(this.coordy>-2){
                 			this.coordy-=spd;
 		        	}
