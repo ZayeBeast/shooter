@@ -8,7 +8,7 @@ class Tank {
 	constructor(id) {
 		this.id = id;	
 		this.image = new Image();
-		this.image.src = 'tank1.png';
+		this.image.src = 'tank1.svg';
 		this.angle = 0;
 		this.coordx = 0;
 		this.coordy = 0;
@@ -63,4 +63,6 @@ function game(){
 	tank1.render();	
 }
 
-setInterval(game,25); // It does game() func 40 times per sec.
+document.addEventListener('DOMContentLoaded', function() {
+    setInterval(game,25); // It does game() func 40 times per sec.
+}, false);
