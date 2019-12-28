@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="tank1"
+   version="1.1"
+   height="256"
+   width="256">
+  <!--
+    The Tank (c) by Nircek
+
+    The Tank is licensed under a
+    Creative Commons Attribution-ShareAlike 4.0 International License.
+
+    You should have received a copy of the license along with this
+    work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.
+
+    It can be found in unmodified state on <https://gist.github.com/Nircek/e2db082eb4c34fd08ef1e654c79dcaf6>.
+
+    It also contains the SVG file licensed by User:Henrickson
+    at en.wikipedia under GFDL or CC-BY-SA-3.0.
+    This was modified by Nircek.
+  -->
+  <title
+     id="title1040">The Tank</title>
+  <metadata
+     id="metadata233">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>The Tank</dc:title>
+        <dc:date>Sun, 13 Jan 2019 11:06:22 +0100</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Nircek</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:identifier>tank1</dc:identifier>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>tank</rdf:li>
+            <rdf:li>camo</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>User:Henrickson at en.wikipedia</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <dc:description>The basic tank with camo</dc:description>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs>
+    <linearGradient id="caterpillar0"
+                    x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ccc"/>
+      <stop offset="1%" stop-color="#000"/>
+      <stop offset="2%" stop-color="#ccc"/>
+      <stop offset="3%" stop-color="#000"/>
+      <stop offset="4%" stop-color="#ccc"/>
+      <stop offset="5%" stop-color="#000"/>
+      <stop offset="6%" stop-color="#ccc"/>
+      <stop offset="7%" stop-color="#000"/>
+      <stop offset="8%" stop-color="#ccc"/>
+      <stop offset="9%" stop-color="#000"/>
+      <stop offset="10%" stop-color="#ccc"/>
+      <stop offset="11%" stop-color="#000"/>
+      <stop offset="12%" stop-color="#ccc"/>
+      <stop offset="13%" stop-color="#000"/>
+      <stop offset="14%" stop-color="#ccc"/>
+      <stop offset="15%" stop-color="#000"/>
+      <stop offset="16%" stop-color="#ccc"/>
+      <stop offset="17%" stop-color="#000"/>
+      <stop offset="18%" stop-color="#ccc"/>
+      <stop offset="19%" stop-color="#000"/>
+      <stop offset="20%" stop-color="#ccc"/>
+      <stop offset="21%" stop-color="#000"/>
+      <stop offset="22%" stop-color="#ccc"/>
+      <stop offset="23%" stop-color="#000"/>
+      <stop offset="24%" stop-color="#ccc"/>
+      <stop offset="25%" stop-color="#000"/>
+      <stop offset="26%" stop-color="#ccc"/>
+      <stop offset="27%" stop-color="#000"/>
+      <stop offset="28%" stop-color="#ccc"/>
+      <stop offset="29%" stop-color="#000"/>
+      <stop offset="30%" stop-color="#ccc"/>
+      <stop offset="31%" stop-color="#000"/>
+      <stop offset="32%" stop-color="#ccc"/>
+      <stop offset="33%" stop-color="#000"/>
+      <stop offset="34%" stop-color="#ccc"/>
+      <stop offset="35%" stop-color="#000"/>
+      <stop offset="36%" stop-color="#ccc"/>
+      <stop offset="37%" stop-color="#000"/>
+      <stop offset="38%" stop-color="#ccc"/>
+      <stop offset="39%" stop-color="#000"/>
+      <stop offset="40%" stop-color="#ccc"/>
+      <stop offset="41%" stop-color="#000"/>
+      <stop offset="42%" stop-color="#ccc"/>
+      <stop offset="43%" stop-color="#000"/>
+      <stop offset="44%" stop-color="#ccc"/>
+      <stop offset="45%" stop-color="#000"/>
+      <stop offset="46%" stop-color="#ccc"/>
+      <stop offset="47%" stop-color="#000"/>
+      <stop offset="48%" stop-color="#ccc"/>
+      <stop offset="49%" stop-color="#000"/>
+      <stop offset="50%" stop-color="#ccc"/>
+      <stop offset="51%" stop-color="#000"/>
+      <stop offset="52%" stop-color="#ccc"/>
+      <stop offset="53%" stop-color="#000"/>
+      <stop offset="54%" stop-color="#ccc"/>
+      <stop offset="55%" stop-color="#000"/>
+      <stop offset="56%" stop-color="#ccc"/>
+      <stop offset="57%" stop-color="#000"/>
+      <stop offset="58%" stop-color="#ccc"/>
+      <stop offset="59%" stop-color="#000"/>
+      <stop offset="60%" stop-color="#ccc"/>
+      <stop offset="61%" stop-color="#000"/>
+      <stop offset="62%" stop-color="#ccc"/>
+      <stop offset="63%" stop-color="#000"/>
+      <stop offset="64%" stop-color="#ccc"/>
+      <stop offset="65%" stop-color="#000"/>
+      <stop offset="66%" stop-color="#ccc"/>
+      <stop offset="67%" stop-color="#000"/>
+      <stop offset="68%" stop-color="#ccc"/>
+      <stop offset="69%" stop-color="#000"/>
+      <stop offset="70%" stop-color="#ccc"/>
+      <stop offset="71%" stop-color="#000"/>
+      <stop offset="72%" stop-color="#ccc"/>
+      <stop offset="73%" stop-color="#000"/>
+      <stop offset="74%" stop-color="#ccc"/>
+      <stop offset="75%" stop-color="#000"/>
+      <stop offset="76%" stop-color="#ccc"/>
+      <stop offset="77%" stop-color="#000"/>
+      <stop offset="78%" stop-color="#ccc"/>
+      <stop offset="79%" stop-color="#000"/>
+      <stop offset="80%" stop-color="#ccc"/>
+      <stop offset="81%" stop-color="#000"/>
+      <stop offset="82%" stop-color="#ccc"/>
+      <stop offset="83%" stop-color="#000"/>
+      <stop offset="84%" stop-color="#ccc"/>
+      <stop offset="85%" stop-color="#000"/>
+      <stop offset="86%" stop-color="#ccc"/>
+      <stop offset="87%" stop-color="#000"/>
+      <stop offset="88%" stop-color="#ccc"/>
+      <stop offset="89%" stop-color="#000"/>
+      <stop offset="90%" stop-color="#ccc"/>
+      <stop offset="91%" stop-color="#000"/>
+      <stop offset="92%" stop-color="#ccc"/>
+      <stop offset="93%" stop-color="#000"/>
+      <stop offset="94%" stop-color="#ccc"/>
+      <stop offset="95%" stop-color="#000"/>
+      <stop offset="96%" stop-color="#ccc"/>
+      <stop offset="97%" stop-color="#000"/>
+      <stop offset="98%" stop-color="#ccc"/>
+      <stop offset="99%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#ccc"/>
+    </linearGradient>
+    <pattern id="camo0" patternUnits="userSpaceOnUse" width="576" height="648">
+      <g id="M90_camo">
+        <!--
+          source:
+            Sweden M90 pattern (https://commons.wikimedia.org/wiki/File:Sweden_M90_pattern.svg)
+            User:Henrickson at en.wikipedia
+            [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons
+          modified by Nircek (github.com/Nircek) on Sun, 13 Jan 2019 10:33:31 +0100
+            - deleted junk of Adobe Illustrator
+        -->
+        <rect id="dk_green" fill="#505032" width="576" height="648"/> 
+        <path id="lt_green" fill="#808030" d="
+          M74.543,0L41.5,109L44,228l53,111.5L16,424l-16-8.604V0H74.543z
+          M310.5,559.5l-68.5-20L171.5,520l-27.891-7.905L126.5,486.5l-86-26l4,23.5L67,496.5l51,32l47.5,29l6,6.5l21,57l11.839,27
+          h96.515L310.5,559.5z M576,387.27l-21.5-14.77L576,179V56.257L490.5,102L438.538,0h-76.559L360,41l-25,44.5L304,142l-105-12.5
+          L150.5,155l10,49l47,60.5l51,55.5l77,88.5l47.5,7l5,54.5l34,83l6.195,95H576V387.27z
+        "/>
+        <path id="tan" fill="#9F9578" d="
+          M388,470l-52.5-61.5l57-57.5l43-45.5l12-29L438,178l-5.5-99L451,56l33,111.5
+          l38.5,50l-2,38.5l-8.5,43l-7,23l-4,42l-63-10.5L414.5,403L388,470z M548.5,94L537,184.5l-9.5,49.5l1,54.5l-6,47.5l0.5,42.5
+          l36,40.5l17,12.171V0h-36.326L548.5,94z M395.597,0H336.61l9.89,21.5L360,41L395.597,0z
+        "/>
+        <path id="black" fill="#3A3440" d="
+          M558.44,0l-2.94,66l-7,28L516,132l-32,35.5L462,127l-14-20l-15.5-28
+          L417,46.5L396.814,0H558.44z M0,397v74.158L44.5,484l99.109,28.095L164,475l1-6.5L146.5,414l-15-51l-9-39.5l-32-99.5l70-20
+          l38.5-74.5l-77.5-7.5l-80-13l-32,115l70,114.5l-66.5,65L0,397z M328,604.5l-17.5-45l-38.5,48L237.436,648h105.789L328,604.5z
+          M455,600l-33-47l-34.5,41l-37.487,54h132.895L455,600z
+        "/>
+        <!--
+          source:
+            Sweden M90 pattern (https://commons.wikimedia.org/wiki/File:Sweden_M90_pattern.svg)
+            User:Henrickson at en.wikipedia
+            [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons
+          modified by Nircek (github.com/Nircek) on Sun, 13 Jan 2019 10:33:31 +0100
+            - deleted junk of Adobe Illustrator
+        -->
+      </g>
+    </pattern>
+  </defs>
+  <rect x="32" y="32"
+        width="16" height="192"
+        rx="8"
+        stroke="#000" stroke-width="1"
+        fill="url(#caterpillar0)"/>
+  <rect x="208" y="32"
+        width="16" height="192"
+        rx="8"
+        stroke="#000" stroke-width="1"
+        fill="url(#caterpillar0)"/>
+  <rect x="40" y="16"
+        width="176" height="224"
+        rx="32" ry="32"
+        stroke="#000" stroke-width="1"
+        style="fill: url(#camo0);"/>
+  <rect x="72" y="8"
+        width="44" height="16"
+        rx="4" ry="4"
+        stroke="#000" stroke-width="1"
+        fill="#ccc"/>
+  <rect x="140" y="8"
+        width="44" height="16"
+        rx="4" ry="4"
+        stroke="#000" stroke-width="1"
+        fill="#ccc"/>
+  <rect x="72" y="236"
+        width="44" height="8"
+        rx="4" ry="4"
+        stroke="#000" stroke-width="1"
+        fill="#f00"/>
+  <rect x="140" y="236"
+        width="44" height="8"
+        rx="4" ry="4"
+        stroke="#000" stroke-width="1"
+        fill="#f00"/>
+  <circle cx="128" cy="128" r="40"
+          stroke="#000" stroke-width="2"
+          fill="brown" />
+</svg>
