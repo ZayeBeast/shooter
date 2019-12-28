@@ -25,13 +25,12 @@ class Tank {
 
   /** Render tank on global ctx */
   render() {
-    ctx.translate(this.coordx+(tankDim/2), this.coordy+(tankDim/2));
-    ctx.rotate(Math.PI / 180* this.angle);
-    ctx.translate(-(this.coordx+(tankDim/2)), -(this.coordy+(tankDim/2)));
-    ctx.drawImage(this.image, this.coordx, this.coordy, tankDim, tankDim);
-    console.log('render');
-    console.log(this.coordx +' | '+this.coordy);
-    this.angle = 0;
+    ctx.save();
+    ctx.translate(this.coordx, this.coordy);
+    ctx.rotate(this.angle*Math.PI/180);
+    ctx.drawImage(this.image, -tankDim/2, -tankDim/2, tankDim, tankDim);
+    ctx.restore();
+    console.log('render: '+this.coordx+' | '+this.coordy+' / '+this.angle);
   }
 
   /**
@@ -49,7 +48,8 @@ class Tank {
         break;
 
       case 'Down':
-        this.coordy += spd;
+        this.coordx -= spd*Math.sin(this.angle*Math.PI/180);
+        this.coordy += spd*Math.cos(this.angle*Math.PI/180);
         break;
 
       case 'Right':
@@ -57,7 +57,8 @@ class Tank {
         break;
 
       case 'Up':
-        this.coordy -= spd;
+        this.coordx += spd*Math.sin(this.angle*Math.PI/180);
+        this.coordy -= spd*Math.cos(this.angle*Math.PI/180);
         break;
     }
   }
